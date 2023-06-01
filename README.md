@@ -11,3 +11,13 @@ Built with:
 "Calm" landing page.
 - ### Output:
   ![Output](./HTML_%26_CSS/Project%201/Project%201%20image%20.png)
+
+
+
+
+
+
+# Project 2:
+"Medifine" landing page.
+- ### Output:
+  ![Output](./HTML_%26_CSS/project%202/project%202%20%20output%20.png)
