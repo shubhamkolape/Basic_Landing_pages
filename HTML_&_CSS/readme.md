@@ -33,3 +33,8 @@
 
 
 
+## "Fashion Hub" landing page.
+### Output:
+![Output](./Project%206/output.png)
+
+

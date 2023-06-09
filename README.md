@@ -43,3 +43,11 @@ Built with:
 "Crypto Market" landing page.
 - ### Output:
   ![Output](./HTML_%26_CSS/Project%205/output.png)
+
+
+
+
+        # Project :6
+"Fashion Hub" landing page.
+- ### Output:
+  ![Output](./HTML_%26_CSS/Project%206/output.png)

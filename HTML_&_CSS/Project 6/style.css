@@ -1,0 +1,219 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    width: 100%;
+    margin:auto ;
+    overflow: hidden;
+    /* font-family: 'Orbitron', sans-serif; */
+    /* font-family: 'poppins', sans-serif; */
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+
+
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+
+.list-item{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 2rem;
+
+}
+
+
+.list .list-item:first-child {
+    position: relative;
+}
+
+.list .list-item:first-child::after {
+    content: '';
+    position: absolute;
+    height: 0.15rem;
+    width: 3rem;
+    background-color: #000000;
+    bottom: 0%;
+    right: 10%;
+}
+
+
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.8rem;
+    gap: 20px;
+}
+
+
+.search-icon{
+    width: 25px;
+}
+
+.nav-button{
+    background-color: transparent;
+    padding: 0.3rem 2.3rem;
+    font-size: 1.313rem;
+    border-radius: 10px;
+}
+
+
+.hero-container{
+    position: relative;
+    display: flex;
+}
+
+.square{
+    position: absolute;
+    top:45%;
+    left: 18%;
+    z-index: -1;
+} 
+
+
+.star{
+    position: absolute;
+}
+
+.globe{
+    position: absolute;
+    left: 53%;
+}
+
+.globe img{
+    width: 60px;
+}
+
+.square img{
+    width: 300px;
+}
+
+
+.hero-container > span:nth-child(2) {
+    position: absolute;
+    z-index: -1;
+    top: 9%;
+    right: 9%;
+}
+
+
+
+.hero-container > span:nth-child(2) > img{
+    width: 60px;
+}
+
+.hero-container > span:nth-child(3) {
+    position: absolute;
+    z-index: -1;
+    left: 45%;
+    bottom: 3%;
+}
+
+.hero-container > span:nth-child(3) > img {
+    width: 50px; 
+}
+
+
+
+
+.hero-container > div:nth-child(5) {
+    width: 40%;
+}
+
+.hero-container > div:nth-child(5) img {
+    width: 67%;
+    margin: 2.5rem 0 0 6.5rem;
+}
+
+
+.hero-container-right{
+    width: 60%;
+    align-items: center;
+}
+
+.hero-heading{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 9rem;
+    margin-left: 5rem;
+}
+
+
+.hero-description{
+    font-size: 1rem;
+    color:grey;
+    text-align: center;
+    width: 65%;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+
+.hero-container-right > div:nth-child(3){
+    margin-top: 4rem;
+}
+
+.button-email{
+    background-color:transparent;
+    font-size: 1.3rem;
+    padding: 3px 23px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin-left: 30%;
+}
+
+.button-join{
+    font-size: 1.3rem;
+    padding: 3px 9px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    margin-left: 2%;
+}
+
+
+.hero-container-right > div:nth-child(4){
+    margin-top: 5rem;
+    margin-left:1.5rem;
+    text-align: center;
+}
+
+
+.contact-heading{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.icons{
+    margin-top: 1rem;
+}
+
+.icons span {
+    margin-right: 1rem;
+}
+
+.icons span img {
+    width: 32px;
+}
+
+
